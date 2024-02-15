@@ -1,0 +1,53 @@
+#grid{
+    position:absolute;
+    height:2000px;
+    place-content: center;
+    margin: 600px;
+    display:grid;
+    background-color: burlywood;
+    padding:700px;
+    margin:200px;
+    grid-template-columns: auto auto auto;
+}
+
+#grid >div{
+    background-color: rgb(45, 5, 25);
+    border:2px solid brown;
+    padding:20px;
+    margin: 4px;
+}
+
+#p3{
+    position:relative;
+    width: 1590px;
+    height: 1300px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#p2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#p1{
+    width:fit-content;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#p7{
+    float:left;
+    overflow:hidden;
+    align-items:center;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    height:1300px;
+    width: 1800px;
+}
