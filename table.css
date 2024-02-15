@@ -1,0 +1,35 @@
+table{
+    margin:150px;
+    border:6px solid rgb(90, 11, 20);
+    background-image: linear-gradient(to right, #b8eca1,rgb(139, 205, 230));
+    width:900px;
+    height:500px;
+}
+
+td,th,tr{
+    font-size:20px;
+    border: 1px solid olivedrab;
+    padding:12px;
+    text-align:left;
+}
+
+caption{
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform:capitalize;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+th{
+    color:indigo;
+    font-weight: underline;
+    font-size: 36px;
+    border:3px solid olivedrab;
+}
+td{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(121, 7, 45);
+    font-size: 33px;
+}
