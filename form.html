@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    label{
+        font-size:large;
+    }
+
+    fieldset{
+        background-color:#eeeeee;
+        border-radius:3%;
+    }
+    legend{
+        border:2px solid black;
+        text-align:center;
+        background-color:rgb(108, 172, 228);
+        font-size:25px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    form{
+        background-blend-mode:lighten;
+        margin-left: 400px;
+        margin-right: 400px;
+        padding: 15px;
+        border-radius: 12px;
+
+    }
+
+    div{
+        border:1px solid teal;
+        width:250px;
+        padding:20px;
+    }
+
+    body{
+        background-image:linear-gradient(135deg, #71b7e6 , #9b59b6);
+    }
+</style>
+<body>
+    <center>
+    <form width="400px">
+        <fieldset>
+            <legend>Student Registration form::</legend><br>
+          <label for="name">Name</label><br><br>
+          <input type="text" name="name" id="name" required><br><br>
+          <label for="email">Email Id</label><br><br>
+          <input type="email" name="email" id="email" required><br><br>
+          
+          <label for="ph.no">Phone Number</label><br><br>
+          <input type="tel" name="ph.no" id="ph.no" required><br><br>
+        <div>
+          <label for="gender">Gender</label><br><br>
+          <input type="radio" name="gender">Male
+          <input type="radio" name="gender">Female
+          <input type="radio" name="gender">Others
+        </div><br><br>
+          
+          <div>
+          <label for="lang">Language</label><br><br>
+          <input type="checkbox" name="gender">English
+          <input type="checkbox" name="gender">Telugu
+          <input type="checkbox" name="gender">Hindi<br><br>
+          <input type="text" name="lang" id="lang" placeholder="Any other" required>
+        </div><br><br>
+
+          <label for="zipcode">Zip code</label><br><br>
+          <input type="text" name="zipcode" id="zipcode" required><br><br>
+          <label for="about">About</label><br><br>
+          <textarea id="about" rows="5" cols="27"></textarea><br><br>
+          <button>Submit</button>
+        </fieldset>
+        </form>
+    </center>
+</body>
+</html>
