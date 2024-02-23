@@ -1,0 +1,54 @@
+.container{
+    margin:0px;
+    position:relative;
+    width:100%;
+    height: 100%;
+    border:solid rgb(162, 221, 221);
+    }
+    
+    h1{
+    margin-left:636px;
+    margin-top:80px;
+    position:absolute;
+    top:0;
+    left:0;
+    text-align:center;
+    padding:10px;
+    background-color: darkslategray;
+    color:white;
+    letter-spacing:2px;
+    }
+    
+    #out{
+    border-radius: 15px;
+    border:3px solid rgb(41, 38, 38); 
+    padding:20px; 
+    background-color: rgb(250, 230, 230);
+    }
+    
+    .inside{
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left: 600px;
+    margin-top:180px;
+    overflow:visible;
+    }
+    
+    button{
+    border-radius: 12px;
+    width: 53px;
+    padding: 18px;
+    margin: 2px;
+    font-size: 25px;
+    background-color: darkslategray;
+    color:beige;
+    }
+    
+    input{
+    width:240px;
+    height: 35px;
+    font-size:large;
+    padding:10px;
+    margin: 0px 20px 20px 0px;
+    }
